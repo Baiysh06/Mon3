@@ -2,7 +2,7 @@ from config import Bot
 from aiogram import types, Dispatcher
 from aiogram.types import InlineKeyboardButton, InlineKeyboardMarkup, ParseMode
 
-from perser.cross import parser
+from parser.cross import parser
 
 
 # =====================================================================================================================
