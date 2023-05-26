@@ -30,8 +30,6 @@ def get_data(html):
     return cross
 
 
-
-
 def parser():
     html = get_html(URL)
     if html.status_code == 200:
