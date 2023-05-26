@@ -8,7 +8,6 @@ HEADERS = {
 }
 
 
-
 def get_html(url):
     req = requests.get(url, headers=HEADERS)
     return req
